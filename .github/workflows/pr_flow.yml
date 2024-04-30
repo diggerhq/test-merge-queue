@@ -6,6 +6,7 @@ on:
     types: [ opened, synchronize ]
   issue_comment:
     types: [created]
+  merge_group:
   workflow_dispatch:
 
 jobs:
