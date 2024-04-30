@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: digger run
-      uses: diggerhq/digger@v0.4.18
+      uses: diggerhq/digger@feat/graceful-merge-queue
       with:
         disable-locking: true
         setup-aws: false
