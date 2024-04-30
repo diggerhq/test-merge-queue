@@ -1,12 +1,13 @@
 name: Digger Pull Request Workflow
 
 on:
+  merge_group:
+    types: [checks_requested]
   pull_request:
     branches: [ "main" ]
     types: [ opened, synchronize ]
   issue_comment:
     types: [created]
-  merge_group:
   workflow_dispatch:
 
 jobs:
